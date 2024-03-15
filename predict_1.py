@@ -5,9 +5,9 @@ import pickle
 import numpy as np
 
 
-N=open("diabetes_model.pkl", "rb")
+F=open("diabetes_model.pkl", "rb")
 
-LR=pickle.load(N)
+LR=pickle.load(F)
 
 pregnancies=st.number_input("number of pregnancies:", 0,20,1)
 
