@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 
 
-F=open("diabetes_model.pkl", "rb")
+F=open("Diabetes_model.pkl", "rb")
 
 LR=pickle.load(F)
 
